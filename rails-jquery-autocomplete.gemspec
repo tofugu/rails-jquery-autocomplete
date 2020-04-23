@@ -13,7 +13,11 @@ Gem::Specification.new do |s|
   s.description = %q{Use jQuery's autocomplete plugin with Rails 4+.}
   s.license = %q{MIT}
 
-  s.add_dependency('rails', '>= 3.2')
+  s.add_dependency('activesupport', '>= 3.2')
+  s.add_dependency('actionpack', '>= 3.2')
+  s.add_dependency('actionview', '>= 3.2')
+  s.add_dependency('activemodel', '>= 3.2')
+  s.add_dependency('activerecord', '>= 3.2')
 
   s.add_development_dependency 'sqlite3-ruby'
   s.add_development_dependency 'minitest'
